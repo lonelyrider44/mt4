@@ -24,7 +24,7 @@
 
 <body>
   <app-root></app-root>
-<script src="/assets/angular/runtime.834b3d6aa5e960b9101e.js" defer></script><script src="/assets/angular/polyfills.35a5ca1855eb057f016a.js" defer></script><script src="/assets/angular/main.5bfe50191e53f017a326.js" defer></script></body>
+<script src="/assets/angular/runtime.c28fa64a146662f3695e.js" defer></script><script src="/assets/angular/polyfills.35a5ca1855eb057f016a.js" defer></script><script src="/assets/angular/main.865311e89de9c53af45f.js" defer></script></body>
 <!-- REQUIRED SCRIPTS -->
 <!-- jQuery -->
 <script src="plugins/jquery/jquery.min.js"></script>

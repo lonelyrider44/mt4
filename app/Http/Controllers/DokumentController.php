@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Dokument;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class DokumentController extends Controller
 {
@@ -40,7 +41,16 @@ class DokumentController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        if(!empty($request->file)){
+            Storage::disk('documents')->put('file.jpg',  base64_decode($request->file));
+        }
+
+        // $path = $request->file('file')->storeAs(
+        //     'avatars',
+        //     'test',
+        //     'documents'
+        // );
     }
 
     /**
