@@ -3,6 +3,7 @@
 /public/storage
 /storage/*.key
 /vendor
+/resources/angular/node_modules
 .env
 .env.backup
 .phpunit.result.cache
